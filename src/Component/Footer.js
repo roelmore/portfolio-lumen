@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { fab, faFacebookF, faTwitter, faInstagram, faPinterestP, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { fab, faFacebookF, faTwitter, faInstagram, faLinkedinIn, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import Logo from '../Assets/Images/logo.png';
+import Logo from '../Assets/Images/roe-logo-white.png';
 
 class Footer extends Component {
     render() {
@@ -21,8 +21,8 @@ class Footer extends Component {
                             <div className="footer-menu">
                                 <ul className="d-flex " >
                                     <li>
-                                        <a href="#">
-                                            <FontAwesomeIcon icon={faFacebookF} />
+                                        <a href="https://www.linkedin.com/in/roelmore/" target="_blank">
+                                            <FontAwesomeIcon icon={faLinkedinIn} />
                                         </a>
                                     </li>
                                     <li>
@@ -35,7 +35,7 @@ class Footer extends Component {
                                             <FontAwesomeIcon icon={faInstagram} />
                                         </a>
                                     </li>
-                                    <li>
+                                    {/* <li>
                                         <a href="#">
                                             <FontAwesomeIcon icon={faPinterestP} />
                                         </a>
@@ -44,7 +44,7 @@ class Footer extends Component {
                                         <a href="#">
                                             <FontAwesomeIcon icon={faYoutube} />
                                         </a>    
-                                    </li>
+                                    </li> */}
                                 </ul>
                             </div>
                         </div>
